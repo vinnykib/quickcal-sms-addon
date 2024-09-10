@@ -1,0 +1,97 @@
+.apt-container {
+  width: calc(100% - 60px);
+  min-width: 1000px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 5%), 0 8px 8px rgb(0 0 0 / 5%),
+    0 32px 32px rgb(0 0 0 / 5%), 0 64px 64px rgb(0 0 0 / 5%);
+  margin: 40px 40px 40px 20px;
+}
+.apt-table {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-collapse: collapse;
+}
+.apt-table tr:nth-child(even) {
+  background-color: #f4f3f3;
+}
+
+.apt-table tr:hover {
+  background-color: #ddd;
+}
+
+.apt-table th {
+  background-color: #0073aa;
+  color: white;
+  padding: 8px;
+  text-align: left;
+}
+
+.apt-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+.page-item .page-link {
+  background-color: #0073aa;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+.page-item {
+  display: inline-block;
+}
+
+.apt-panel-head {
+  padding: 20px 30px;
+  background-color: #0073aa;
+  color: white;
+}
+.apt-panel-head h3 {
+  margin-left: 20px;
+  font-size: 28px;
+  color: white;
+}
+.apt-panel-body:not(.apt-list) {
+  margin: 50px;
+}
+.apt-panel-body.apt-list {
+  margin: 10px;
+}
+.apt-export-btn {
+  cursor: pointer;
+  float: right;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00aa5b;
+  color: white;
+}
+.filter-export-btn {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0073aa;
+  color: white;
+}
+.no-apt h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+#disable-sms input {
+  margin: auto;
+}
+#disable-sms input[type="text"] {
+  width: 30em;
+}
+
+.export-container select {
+  width: 180px;
+}
